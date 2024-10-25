@@ -3,10 +3,16 @@ public class git {
         System.out.println("Spooky Month");
         System.out.println("It is october");
         boolean halloween = false;
-        if (halloween){
-            System.out.println("Happy Halloween!");
-        } else {
-            System.out.println("Its not halloween yet.");
+        int todaysDate = 25;
+        while (todaysDate != 31) {
+            todaysDate++;
+            if (todaysDate == 31) {
+                halloween = true;
+            } if (halloween){
+                System.out.println("Happy Halloween!");
+            } else {
+                System.out.println("Its not halloween yet.");
+            }
         }
     }
 }
