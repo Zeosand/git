@@ -11,7 +11,8 @@ public class git {
             } if (halloween){
                 System.out.println("Happy Halloween!");
             } else {
-                System.out.println("Its not halloween yet.");
+                System.out.println("Its not halloween yet." );
+                System.out.println("Today is October " + todaysDate);
             }
         }
     }
