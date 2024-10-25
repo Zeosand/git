@@ -1,5 +1,12 @@
 public class git {
     public static void main(String[] args) {
-        System.out.println("Spooky month");
+        System.out.println("Spooky Month");
+        System.out.println("It is october");
+        boolean halloween = false;
+        if (halloween){
+            System.out.println("Happy Halloween!");
+        } else {
+            System.out.println("Its not halloween yet.");
+        }
     }
 }
