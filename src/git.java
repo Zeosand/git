@@ -15,5 +15,6 @@ public class git {
                 System.out.println("Today is October " + todaysDate);
             }
         }
+        System.out.println("Christmas is coming soon");
     }
 }
